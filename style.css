@@ -1,0 +1,58 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: rgb(34, 34, 34);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cabeçalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabeçalho-conteúdo {
+  line-height: 35px;
+}
+
+#cabeçalho-conteúdo-titulo-roxo {
+  color: purple;
+}
+
+.cabeçalho-links {
+  font-size: white;
+}
+
+.conteúdo-principal {
+  margin: 70px;
+}
+
+.conteúdo-principal-esquerda {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+.conteúdo-principal-esquerda-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+input {
+  border: white 2px solid;
+  border-radius: 20px;
+}
